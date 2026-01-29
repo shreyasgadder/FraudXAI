@@ -107,8 +107,8 @@ npm run dev
 📦 FraudXAI
 ├── 📂 backend                          # FastAPI Application
 │   ├── 📂 logic                        # XAI Orchestrator (GNN, SHAP, BAC Score, Narrative)
-│   ├── 📂 artifacts                    # Auto-downloaded artifacts
 │   └── main.py                         # API Entry Point
+├── 📂 artifacts                        # Auto-downloaded artifacts
 ├── 📂 frontend                         # React Dashboard
 │   ├── 📂 src
 │   │   ├── 📂 components               # StructuralLens, BACScoreCard, Narratives
