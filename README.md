@@ -8,9 +8,6 @@
 
 It combines:
 
-1. **Heterogeneous Graph Neural Networks (HeteroGNN):** Captured complex money flow patterns (Structural Analysis) using PyTorch Geometric.
-2. **Tabular Analysis (SHAP):** Identifies behavioral anomalies in transaction features via a stacked XGBoost prior.
-3. **Generative AI (Google Gemini):** Synthesizes technical metrics into human-readable, analyst-grade narratives.
 1. **Heterogeneous Graph Neural Networks (HeteroGNN):** Captures complex, multi-hop money flow patterns (Structural Analysis) using PyTorch Geometric by modeling accounts and transactions as distinct node types.
 2. **Robustness Engine (Focal Loss & TBCV):** Implements Binary Focal Loss to handle the extreme class imbalance (Fraud $\approx$ 0.17%) and uses Time-Based Cross Validation to ensure the model remains stable against concept drift.
 3. **Tabular Analysis (SHAP):** Identifies behavioral anomalies in transaction features via a stacked XGBoost prior, providing a "tabular baseline" for every prediction.
